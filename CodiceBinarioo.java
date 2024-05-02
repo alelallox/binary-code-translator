@@ -36,7 +36,7 @@ public class CodiceBinarioo {
         for (int i = 0; i < input.length(); i++) {
             char character = input.charAt(i);
             String binaryRepresentation = Integer.toBinaryString((int) character);
-            System.out.print(binaryRepresentation + " ");
+            System.out.print("0"+binaryRepresentation + " ");
         }
     }
 
